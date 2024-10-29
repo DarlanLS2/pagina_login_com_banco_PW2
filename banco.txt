@@ -1,0 +1,13 @@
+CREATE DATABASE bancoLogin;
+
+USE bancoLogin;
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    senha VARCHAR(255) NOT NULL
+);
+
+
+INSERT INTO usuarios (email, senha) 
+VALUES ('usuario@example.com', 'senha');
